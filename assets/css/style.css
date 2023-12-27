@@ -237,7 +237,8 @@ h6 {
   background-color: #316380;
   visibility: hidden;
   width: 0px;
- /* transition: all 0.3s ease-in-out 0s;*/
+  transition: none; 
+ /*transition: all 0.3s ease-in-out 0s;*/
 }
 
 .navbar a:hover:before,
@@ -329,12 +330,13 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  overflow: hidden;
+  /*overflow: hidden;*/
   position: absolute;
   width: 100%;
   top: 140px;
   bottom: 100%;
   opacity: 0;
+  transition: none;
   /*transition: ease-in-out 0.4s;*/
   z-index: 2;
 }
