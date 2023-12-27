@@ -245,22 +245,22 @@ h6 {
   background-color: #316380;
   visibility: hidden;
   width: 0px;
-  transition: all 0.3s ease-in-out 0s;
+  /*transition: all 0.3s ease-in-out 0s;*/
 }
 
-/*.navbar a:hover:before,
+.navbar a:hover:before,
 .navbar li:hover>a:before,
 .navbar .active:before {
   visibility: visible;
   width: 25px;
-}*/
+}
 
-/*.navbar a:hover,
+.navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #fff;
-}*/
+}
 
 /**
 * Mobile Navigation 
