@@ -493,6 +493,9 @@ section .container {
 .skills .progress .skill .val {
   float: right;
   font-style: normal;
+}
+
+.skills .progress .skill .val .i {
   transition: none;
 }
 
