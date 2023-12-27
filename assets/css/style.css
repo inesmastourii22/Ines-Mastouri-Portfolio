@@ -245,7 +245,7 @@ h6 {
   background-color: #316380;
   visibility: hidden;
   width: 0px;
-  /*transition: all 0.3s ease-in-out 0s;*/
+  transition: all 0.3s ease-in-out 0s;
 }
 
 .navbar a:hover:before,
@@ -343,7 +343,7 @@ section {
   top: 140px;
   bottom: 100%;
   opacity: 0;
-  transition: ease-in-out 0.4s;
+  /*transition: ease-in-out 0.4s;*/
   z-index: 2;
 }
 
@@ -510,7 +510,7 @@ section .container {
 .skills .progress-bar {
   width: 1px;
   height: 10px;
-  transition: 0.9s;
+  /*transition: 0.9s;*/
   background-color: #316380;
 }
 
