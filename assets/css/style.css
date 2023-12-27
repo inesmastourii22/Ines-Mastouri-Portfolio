@@ -236,9 +236,8 @@ h6 {
   left: 0;
   background-color: #316380;
   visibility: hidden;
-  width: 0px;
-  transition: none; 
- /*transition: all 0.3s ease-in-out 0s;*/
+  width: 0px; 
+ transition: all 0.3s ease-in-out 0s;
 }
 
 .navbar a:hover:before,
@@ -336,8 +335,7 @@ section {
   top: 140px;
   bottom: 100%;
   opacity: 0;
-  transition: none;
-  /*transition: ease-in-out 0.4s;*/
+  transition: ease-in-out 0.4s;
   z-index: 2;
 }
 
@@ -495,6 +493,7 @@ section .container {
 .skills .progress .skill .val {
   float: right;
   font-style: normal;
+  transition: none;
 }
 
 .skills .progress-bar-wrap {
